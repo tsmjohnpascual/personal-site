@@ -36,11 +36,11 @@
 }
 
 /* RESPONSIVENESS */
-
 @media (max-width: 879px) {
   .title-heading {
     font-size: 5rem;
   }
+
   .title-sub-heading {
     font-size: 2.5rem;
   }
@@ -50,6 +50,7 @@
   .title-heading {
     font-size: 4rem;
   }
+
   .title-sub-heading {
     font-size: 2rem;
   }
@@ -59,6 +60,7 @@
   .title-heading {
     font-size: 3rem;
   }
+
   .title-sub-heading {
     font-size: 1.5rem;
   }
@@ -68,7 +70,18 @@
   .title-heading {
     font-size: 2rem;
   }
+
   .title-sub-heading {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 294px) {
+  .title-heading {
+    font-size: 1.5rem;
+  }
+
+  .title-sub-heading {
+    font-size: 0.5rem;
   }
 }
