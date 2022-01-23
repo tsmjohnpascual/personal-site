@@ -64,9 +64,9 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   .title-heading {
-    font-size: 2.0rem;
+    font-size: 2rem;
   }
   .title-sub-heading {
     font-size: 1rem;
