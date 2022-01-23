@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  padding: 2% 19% 0;
+  padding: 2% 10% 0;
 }
 
 /* TITLE SECTION */
@@ -12,8 +12,7 @@
 }
 
 .title-container {
-  margin-top: 5%;
-  padding: 20% 17% 20%;
+  padding: 15% 17% 15%;
   text-align: center;
 }
 
@@ -36,108 +35,46 @@
 }
 
 /* ABOUT ME SECTION */
-
 #about-me {
   background-color: #171717;
 }
 
-h2 {
+.about-me-heading {
   font-family: 'Dongle', sans-serif;
   color: white;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 400;
 }
 
-p {
+.about-me-paragraph {
   font-family: 'Cormorant Infant', serif;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .about-me-container {
-  padding: 3% 17% 3%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   text-align: center;
 }
 
 .about-me-div {
-  padding: 5% 20% 5%;
+  padding: 5% 25% 5%;
 }
 
 /* RESPONSIVENESS */
-@media (max-width: 879px) {
+@media (max-width: 990px) {
   .title-heading {
     font-size: 5rem;
   }
+}
 
-  .title-sub-heading {
-    font-size: 2.5rem;
-  }
-
-  h2 {
+@media (max-width: 572px) {
+  .title-heading {
     font-size: 3.5rem;
   }
 
-  p {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 733px) {
-  .title-heading {
-    font-size: 4rem;
-  }
-
   .title-sub-heading {
     font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 3rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 586px) {
-  .title-heading {
-    font-size: 3rem;
-  }
-
-  .title-sub-heading {
-    font-size: 1.5rem;
-  }
-
-  h2 {
-    font-size: 2.5rem;
-  }
-
-  p {
-    font-size: 0.5rem;
-  }
-}
-
-@media (max-width: 440px) {
-  .title-heading {
-    font-size: 2rem;
-  }
-
-  .title-sub-heading {
-    font-size: 1rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 294px) {
-  .title-heading {
-    font-size: 1.5rem;
-  }
-
-  .title-sub-heading {
-    font-size: 0.5rem;
   }
 }
