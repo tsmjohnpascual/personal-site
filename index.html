@@ -16,6 +16,8 @@
     href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/701be9d26f.js" crossorigin="anonymous"></script>
   <title>John Pascual</title>
 </head>
 
@@ -52,24 +54,76 @@
         </div>
       </nav>
       <!-- TITLE -->
-      <div class="title-container row">
-        <div class="col col-12 title-div">
+      <div class="title-container">
+        <div class="title-div">
           <h1 class="title-heading">I'm John.</h1>
         </div>
-        <div class="col col-12 title-div">
+        <div class="title-div">
           <h2 class="title-sub-heading">an aspiring developer.</h2>
         </div>
       </div>
     </div>
   </section>
   <section id="about-me">
-    <div class="about-me-container row">
-      <div class="col col-12 about-me-div">
+    <div class="about-me-container">
+      <div class="about-me-div">
         <h2 class="about-me-heading">Hi.</h2>
       </div>
-      <div class="col col-12 about-me-div">
+      <div class="about-me-div">
         <p class="about-me-paragraph">I'm an aspiring web developer / designer based in London, UK. I have a passion for web design and my dream is to work at Google. I am also a sneakerhead.</p>
       </div>
+    </div>
+  </section>
+  <section id="education">
+    <figure class="education-figure">
+      <img class="education-icon" src="images/education.png" alt="education-icon">
+    </figure>
+    <h2 class="education-heading">My education.</h2>
+    <div id="education-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <div class="education-container row">
+            <div class="col-lg-6 school">
+              <h4 class="date"><i class="far fa-calendar"></i> September 2016 - July 2019</h4>
+              <h3 class="education-school">Queen Mary University of London</h3>
+              <p class="education-qualification">Computer Science and Mathematics BSc</p>
+            </div>
+            <div class="col-lg-6">
+              <img class="qmul-image" src="images/qmul.png" alt="qmul-image">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item container-fluid">
+          <div class="education-container row">
+            <div class="col-lg-6 school">
+              <h4 class="date"><i class="far fa-calendar"></i> September 2014 - July 2016</h4>
+              <h3 class="education-school">Hammersmith Academy</h3>
+              <p class="education-qualification">3 A-Levels grades D*BC</p>
+            </div>
+            <div class="col-lg-6">
+              <img class="hammersmith-image" src="images/hammersmith.png" alt="hammersmith-image">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item container-fluid">
+          <div class="education-container row">
+            <div class="col-lg-6 school">
+              <h4 class="date"><i class="far fa-calendar"></i> February 2011 - July 2014</h4>
+              <h3 class="education-school">Fulham College Boys' School</h3>
+              <p class="education-qualification">9 GSCEs at grades A* to C including English and Maths</p>
+            </div>
+            <div class="col-lg-6">
+              <img class="fcbs-image" src="images/fcbs.png" alt="fcbs-image">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#education-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#education-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
     </div>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

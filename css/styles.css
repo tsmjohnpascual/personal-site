@@ -1,3 +1,8 @@
+body {
+  background-color: #171717;
+  text-align: center;
+}
+
 /* NAVIGATION BAR */
 #title .container-fluid {
   background-repeat: no-repeat;
@@ -13,7 +18,6 @@
 
 .title-container {
   padding: 15% 17% 15%;
-  text-align: center;
 }
 
 .title-div {
@@ -35,9 +39,6 @@
 }
 
 /* ABOUT ME SECTION */
-#about-me {
-  background-color: #171717;
-}
 
 .about-me-heading {
   font-family: 'Dongle', sans-serif;
@@ -62,10 +63,76 @@
   padding: 5% 3% 5%;
 }
 
+/* EDUCATION SECTION */
+
+.education-figure {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.education-heading {
+  font-family: 'Dongle', sans-serif;
+  color: white;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.education-container {
+  padding: 6% 17% 6%;
+  text-align: left;
+}
+
+.education-icon {
+  width: 150px;
+  height: 150px;
+}
+
+.qmul-image {
+  width: 90%;
+}
+
+.hammersmith-image {
+  width: 90%;
+}
+
+.fcbs-image {
+  width: 90%;
+}
+
+.date {
+  font-family: 'Dongle', sans-serif;
+  color: white;
+}
+
+.education-school {
+  font-family: 'Cormorant Infant', serif;
+  color: #DA0037;
+  font-size: 2rem;
+}
+
+.education-qualification {
+  font-family: 'Dongle', sans-serif;
+  color: white;
+  font-size: 2rem;
+}
+
 /* RESPONSIVENESS */
-@media (max-width: 990px) {
+@media (max-width: 991px) {
   .title-heading {
     font-size: 5rem;
+  }
+
+  .education-container {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1180px) {
+  .education-school {
+    font-size: 1.5rem;
+  }
+  .education-qualification {
+    font-size: 1.5rem;
   }
 }
 
@@ -76,5 +143,10 @@
 
   .title-sub-heading {
     font-size: 2rem;
+  }
+
+  .education-image {
+    width: 100px;
+    height: 100px;
   }
 }
