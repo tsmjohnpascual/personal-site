@@ -117,7 +117,7 @@ body {
 }
 
 /* RESPONSIVENESS */
-@media (max-width: 991px) {
+@media (max-width: 990px) {
   .title-heading {
     font-size: 5rem;
   }
