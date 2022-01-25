@@ -16,6 +16,9 @@
     href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <!-- FontAwesome -->
   <script src="https://kit.fontawesome.com/701be9d26f.js" crossorigin="anonymous"></script>
   <title>John Pascual</title>
@@ -25,7 +28,7 @@
   <section id="title">
     <div class="container-fluid" style="background-image:url(images/title-image.png)">
       <!-- NAVIGATION BAR -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark nav-container">
         <a class="navbar-brand" href="">John</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -33,22 +36,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">About me</a>
+              <a class="nav-link nav-text" href="#education">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Education</a>
+              <a class="nav-link nav-text" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Work Experience</a>
+              <a class="nav-link nav-text" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Contact me</a>
+              <a class="nav-link nav-text" href="#contact-me">Contact me</a>
             </li>
           </ul>
         </div>
@@ -57,73 +54,159 @@
       <div class="title-container">
         <div class="title-div">
           <h1 class="title-heading">I'm John.</h1>
-        </div>
-        <div class="title-div">
-          <h2 class="title-sub-heading">an aspiring developer.</h2>
+          <h2 class="title-sub-heading">a sneakerhead.</h2>
         </div>
       </div>
     </div>
   </section>
+  <!-- ABOUT ME SECTION -->
   <section id="about-me">
-    <div class="about-me-container">
+    <div class="about-me-container container-fluid">
       <div class="about-me-div">
         <h2 class="about-me-heading">Hi.</h2>
       </div>
       <div class="about-me-div">
-        <p class="about-me-paragraph">I'm an aspiring web developer / designer based in London, UK. I have a passion for web design and my dream is to work at Google. I am also a sneakerhead.</p>
+        <p class="about-me-paragraph">I'm an aspiring web developer / designer based in London, UK. I have a passion for web design and my dream is to work at Google.</p>
       </div>
     </div>
   </section>
+  <!-- EDUCATION AND EXPERIENCE SECTION -->
   <section id="education">
-    <figure class="education-figure">
-      <img class="education-icon" src="images/education.png" alt="education-icon">
-    </figure>
-    <h2 class="education-heading">My education.</h2>
-    <div id="education-carousel" class="carousel slide" data-ride="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active container-fluid">
-          <div class="education-container row">
-            <div class="col-lg-6 school">
+    <div class="education-container container-fluid">
+      <h2 class="education-heading">About me</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="education-box-heading">Education</h2>
+          <ul>
+            <li>
               <h4 class="date"><i class="far fa-calendar"></i> September 2016 - July 2019</h4>
               <h3 class="education-school">Queen Mary University of London</h3>
               <p class="education-qualification">Computer Science and Mathematics BSc</p>
-            </div>
-            <div class="col-lg-6">
-              <img class="qmul-image" src="images/qmul.png" alt="qmul-image">
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item container-fluid">
-          <div class="education-container row">
-            <div class="col-lg-6 school">
+            </li>
+            <li>
               <h4 class="date"><i class="far fa-calendar"></i> September 2014 - July 2016</h4>
               <h3 class="education-school">Hammersmith Academy</h3>
               <p class="education-qualification">3 A-Levels grades D*BC</p>
-            </div>
-            <div class="col-lg-6">
-              <img class="hammersmith-image" src="images/hammersmith.png" alt="hammersmith-image">
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item container-fluid">
-          <div class="education-container row">
-            <div class="col-lg-6 school">
+            </li>
+            <li>
               <h4 class="date"><i class="far fa-calendar"></i> February 2011 - July 2014</h4>
               <h3 class="education-school">Fulham College Boys' School</h3>
               <p class="education-qualification">9 GSCEs at grades A* to C including English and Maths</p>
-            </div>
-            <div class="col-lg-6">
-              <img class="fcbs-image" src="images/fcbs.png" alt="fcbs-image">
-            </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="education-box-heading">Experience</h2>
+          <ul>
+            <li>
+              <h4 class="date"><i class="far fa-calendar"></i> February 2020 - Present</h4>
+              <h3 class="work-experience">Specsavers High Wycombe</h3>
+              <p class="job-title">Optical / Dispensing Assistant</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SKILL SECTION -->
+  <section id="skills">
+    <div class="skills-container">
+      <h2 class="skills-heading">My skills</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 skill-boxes">
+            <h3 class="skill-title">HTML</h3>
+            <i class="fab fa-html5 fa-7x skills-icon"></i>
+          </div>
+          <div class="col-lg-3 col-md-6 skill-boxes">
+            <h3 class="skill-title">CSS</h3>
+            <i class="fab fa-css3-alt fa-7x skills-icon"></i>
+          </div>
+          <div class="col-lg-3 col-md-6 skill-boxes">
+            <h3 class="skill-title">Javascript</h3>
+            <i class="fab fa-js fa-7x skills-icon"></i>
+          </div>
+          <div class="col-lg-3 col-md-6 skill-boxes">
+            <h3 class="skill-title">Bootstrap</h3>
+            <i class="fab fa-bootstrap fa-7x skills-icon"></i>
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#education-carousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#education-carousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
+    </div>
+  </section>
+  <!-- PROJECTS section -->
+  <section id="projects">
+    <div class="projects-container">
+      <h2 class="projects-heading">Projects</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 projects-box">
+            <a href="https://tsmjohnpascual.github.io/tindog/"><img class="tindog-image" src="images/tindog.png" alt="tindog-image"></a>
+          </div>
+          <div class="col-lg-6 projects-box">
+            <h3 class="project-title">tindog</h3>
+            <p class="project-description">This is a website design for a startup business called tindog. Inspired by tinder, this app can easily find your dog's love of their life. In this project I created a responsive web design using Bootstrap. I
+              experimented with the Bootstrap navigation bars, grids, containers, buttons, carousels and also the z-index.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT ME SECTION -->
+  <section id="contact-me">
+    <div class="contact-me-container">
+      <h2 class="get-in-touch-heading">Get in touch</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 contact-me-box">
+            <h2 class="contact-me-heading">Contact me</h2>
+            <form class="row" action="mailto:ashleypascual@hotmail.es" method="post">
+              <div class="col-lg-12 col-md-6 contact-divs">
+                <label for="your-name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="your-name" required>
+              </div>
+              <div class="col-lg-12 col-md-6 contact-divs">
+                <label for="your-number" class="form-label">Phone</label>
+                <input type="text" class="form-control" id="your-number">
+              </div>
+              <div class="col-lg-12 contact-divs">
+                <label for="email-info" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email-info" required>
+              </div>
+              <div class="col-lg-12 contact-divs">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="8"></textarea>
+              </div>
+              <div class="col-lg-12 button">
+                <button type="submit" class="btn btn-dark submit-button">Submit</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6 details-box">
+            <h2 class="details-heading">My contact details</h2>
+            <span>E-mail</span> <br>
+            <p class="details-paragraph">ashleypascual@hotmail.es</p>
+            <span>Phone</span> <br>
+            <p class="details-paragraph">+44 7444818077</p>
+            <span>Work Address</span> <br>
+            <p class="details-paragraph">Unit 4, 27-31 White Hart St <br>
+              High Wycombe, Buckinghamshire <br>
+              HP11 2HL <br>
+              United Kingdom</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER SECTION -->
+  <section id="footer-section">
+    <div class="footer-container">
+      <a href="https://www.facebook.com/TSMKC" class="footer-icon"><i class="fab fa-facebook-square fa-2x"></i></a>
+      <a href="https://www.instagram.com/john.pascua1/" class="footer-icon"><i class="fab fa-instagram-square fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/john-pascual-990a0b1a0/" class="footer-icon"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="https://www.tiktok.com/@john.pascua1" class="footer-icon"><i class="fab fa-tiktok fa-2x"></i></a>
+      <a href="https://twitter.com/Tyrion_SSI" class="footer-icon"><i class="fab fa-twitter-square fa-2x"></i></a>
+      <p class="footer-paragraph">Copyright <i class="far fa-copyright"></i> 2022 John Pascual. All rights reserved.</p>
     </div>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
